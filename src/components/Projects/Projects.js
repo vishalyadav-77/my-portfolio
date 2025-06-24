@@ -3,11 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import quiz from "../../Assets/Projects/quiz.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import mediclens from "../../Assets/Projects/mediclens.png";
+import pairly from "../../Assets/Projects/pairlyimage.png";
 import tk from "../../Assets/Projects/tk.png";
 import nodez from "../../Assets/Projects/nodez.png";
-import suicide from "../../Assets/Projects/suicide.png";
 
 function Projects() {
   return (
@@ -27,8 +26,19 @@ function Projects() {
               isBlog={false}
               title="Medic Lens"
               description="MEDIC LENS is a mobile app that allows users to scan pictures of medicines to extract their names and chemical compositions. By leveraging AI, it provides detailed information about the uses and benefits of the medicines. The app aims to help users quickly access reliable medication information by simply taking a photo, making it an efficient tool for anyone looking to learn more about pharmaceuticals."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              ghLink="https://github.com/vishalyadav-77/MedicLens"
+              demoLink="https://www.mediafire.com/folder/ohw02c9vwoq2a/medics+lens+app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pairly}
+              isBlog={false}
+              title="Pairly"
+              description="Pairly is a social app that combines real-time chatting with lightweight, web-based games—allowing users to connect, talk, and play without switching between apps. It offers a clean, minimal interface focused on seamless interaction, making it ideal for users who want to chill, chat, and compete with friends in one place."
+              ghLink="https://github.com/vishalyadav-77/pairly"
+              demoLink="https://www.mediafire.com/file/azewcsko3dprn9c/Pairly_app.apk/file"
             />
           </Col>
 
