@@ -19,12 +19,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            Building mobile apps feels like bringing ideas to life in my hands—it's both exciting and rewarding!
-              <br />
-              <br />I am fluent in languages like
-              <i>
-                <b className="purple"> Java, Kotlin, Python and C++ </b>
-              </i>
+            If you're looking for an <b className="purple">Android Developer</b>, a mobile <b className="purple">problem-solver</b>, or someone strong with <b className="purple">Java</b> you're in the right place.
+            <br/>
+            <br/>I'm Vishal, a final-year BCA student who builds clean, efficient, and user-focused apps. I specialize in<b className="purple"> Android development</b> using Java and Kotlin, with a sharp eye for solving <b className="purple">real-world</b> problems through code.
               <br />
               <br />
               My interests lie in building new &nbsp;
@@ -36,9 +33,7 @@ function Home2() {
                 </b>
               </i>
               <br />
-              <br />
-              Coding feels like a <b className="purple"> Superpower</b>, taking ideas from my mind and turning them into something real, something people can use and experience!
-            </p>
+          </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

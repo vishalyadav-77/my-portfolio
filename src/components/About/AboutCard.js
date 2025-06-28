@@ -22,20 +22,19 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-            • Playing Games
+            • Filming & Editing
             </li>
             <li className="about-activity">
             • Gym
             </li>
             <li className="about-activity">
-            • Video Editing
+            • Content Creation
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "From thoughts to code, from code to reality."{" "}
+            "Coding feels like a  Superpower, taking ideas from my mind and turning them into something real, something people can use and experience!"{" "}
           </p>
-          <footer className="blockquote-footer">Vishal</footer>
         </blockquote>
       </Card.Body>
     </Card>

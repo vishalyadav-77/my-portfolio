@@ -8,11 +8,11 @@ function Type() {
         strings: [
           "Android Developer",
           "Java Developer",
-          "App Developer",
+          "Mobile App Developer",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 20,
       }}
     />
   );
